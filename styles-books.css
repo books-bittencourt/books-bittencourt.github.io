@@ -1,5 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-@font-face { font-family: Arrow; src: url('media/Arrow.ttf'); }
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('media/Libre-Baskerville-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('media/Libre-Baskerville-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('media/Libre-Baskerville-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 html, body
 {
@@ -24,6 +46,7 @@ html, body
 .header
 {
 	font-family: Helvetica, Sans-Serif;
+	hyphens: none;
 	padding: 18px 15px 0px 15px;
 	text-align: center;
 }
@@ -54,8 +77,6 @@ img.below-title
 	margin-top: 15px;
 }
 
-.indent { margin-left: 20px; }
-
 .quote
 {
 	font-family: Helvetica, Sans-Serif;
@@ -81,28 +102,6 @@ img.below-title
 	font-weight: normal;
 	margin-top: -5px;
 	text-align: right;
-}
-
-.quote-book
-{
-	font-family: Helvetica, Sans-Serif;
-	margin-left: 20px;
-}
-
-.caption
-{
-	font-family: Helvetica, Sans-Serif;
-	margin-top: 2px;
-	text-align: center;
-	text-wrap: balance;
-}
-
-.languages
-{
-	color: #bbb;
-	font-family: Helvetica, Sans-Serif;
-	margin-top: 25px;
-	text-align: center;
 }
 
 a
@@ -136,91 +135,10 @@ h4
 	text-wrap: balance;
 }
 
-h5
+.helvetica
 {
 	font-family: Helvetica, Sans-Serif;
-	font-size: 1.2rem;
-	font-weight: normal;
-	line-height: 1.1;
-	text-align: center;
-	text-wrap: balance;
-}
-
-ol, ul { margin-bottom: -7px; }
-
-li
-{
-	font-family: Helvetica, Sans-Serif;
-	padding-bottom: 7px;
-}
-
-.arrow
-{
-	color: #000;
-	font-family: Arrow;
-}
-
-.navigation
-{
-	display: grid;
-	font-size: 1.95rem;
-	font-weight: bold;
-	grid-template-columns: repeat(3, minmax(0, 1fr));
-	height: 23px;
-	line-height: 0.8;
-	margin-top: 32px;
-}
-
-.triangle-left
-{
-	border-color: transparent #025eee transparent transparent;
-	border-style: solid;
-	border-width: 11.5px 19.9px 11.5px 0;
-	float: left;
-}
-
-.triangle-right
-{
-	border-color: transparent transparent transparent #025eee;
-	border-style: solid;
-	border-width: 11.5px 0 11.5px 19.9px;
-	float: right;
-}
-
-.triangle-left-link
-{
-	height: 23px;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 20px;
-	z-index: 1;
-}
-
-.triangle-right-link
-{
-	height: 23px;
-	position: absolute;
-	right: 0;
-	top: 0;
-	width: 20px;
-	z-index: 1;
-}
-
-.video
-{
-	height: 0;
-	padding-bottom: 56.25%;
-	position: relative;
-}
-
-.video iframe
-{
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	left: 0;
-	top: 0;
+	font-size: 1.05rem;
 }
 
 @media only screen and (max-width: 749px)
