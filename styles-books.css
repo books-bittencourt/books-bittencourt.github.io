@@ -5,7 +5,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Libre Baskerville';
     src: url('media/Libre-Baskerville-Italic.woff2') format('woff2');
@@ -13,7 +12,6 @@
     font-style: italic;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Libre Baskerville';
     src: url('media/Libre-Baskerville-Bold.woff2') format('woff2');
@@ -21,7 +19,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 
 html, body
 {
@@ -37,7 +34,7 @@ html, body
 
 .wrapper
 {
-	background-color: white;
+	background-color: #fff;
 	border-radius: 8px;
 	margin-bottom: 14px;
 	margin-top: 14px;
@@ -47,7 +44,7 @@ html, body
 {
 	font-family: Helvetica, Sans-Serif;
 	hyphens: none;
-	padding: 18px 15px 0px 15px;
+	padding: 15px 15px 0px 15px;
 	text-align: center;
 }
 
