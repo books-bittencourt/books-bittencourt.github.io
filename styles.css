@@ -1,0 +1,309 @@
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('media/Libre-Baskerville-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('media/Libre-Baskerville-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('media/Libre-Baskerville-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+html, body
+{
+	background: #f5f5f5;
+	color: #000;
+	font-family: 'Libre Baskerville', Georgia, Serif;
+	font-size: 1rem;
+	hyphens: auto;
+	margin: 0 auto;
+	padding: 0;
+	text-align: justify;
+}
+
+.wrapper
+{
+	background-color: #fff;
+	border-radius: 8px;
+	margin-bottom: 15px;
+	margin-top: 14px;
+}
+
+.header
+{
+	font-family: Helvetica, Sans-Serif;
+	hyphens: none;
+	padding: 15px 15px 0px 15px;
+	text-align: center;
+}
+
+.main-div
+{
+	line-height: 1.6;
+	padding: 0px 15px 12px 15px;
+}
+
+.navigation
+{
+	display: grid;
+	font-size: 1.4rem;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	line-height: 1.15;
+	margin-right: -2px;
+	margin-top: 31px;
+}
+
+.navigation-button-corner
+{
+	font-size: 1.4rem;
+	position: absolute;
+	top: 14px;
+	left: 15px;
+}
+
+.logo { width: 30%; }
+
+.title
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.7rem;
+	font-weight: normal;
+	line-height: 1.1;
+	padding-top: 7px;
+	text-align: center;
+}
+
+.below-title { margin-top: 24px; }
+
+img.below-title
+{
+	border-radius: 8px;
+	margin-top: 15px;
+}
+
+.copyright
+{
+	color: #999;
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.05rem;
+	margin-top: -15px;
+	text-align: center;
+}
+
+.below-copyright { margin-top: 23px; }
+.indent { margin-left: 20px; }
+
+.quote
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.2rem;
+	font-weight: bold;
+	line-height: 1.4;
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: left;
+}
+
+.quote-author
+{
+	display: block;
+	font-size: 1.1rem;
+	font-weight: normal;
+	line-height: 1.5;
+	text-align: right;
+}
+
+.quote-source
+{
+	display: block;
+	font-size: 1rem;
+	font-weight: normal;
+	margin-top: -5px;
+	text-align: right;
+}
+
+.quote-book
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.05rem;
+	margin-left: 20px;
+}
+
+.quote-number
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 0.9rem;
+	text-align: center;
+}
+
+.caption
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.05rem;
+	line-height: 1.3;
+	margin-top: 2px;
+	text-align: center;
+	text-wrap: balance;
+}
+
+.languages
+{
+	color: #bbb;
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.05rem;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.helvetica
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.05rem;
+}
+
+.religions-symbols
+{
+	color: #999;
+	font-size: 1.3rem;
+	line-height: 0;
+	margin-bottom: 29px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.religions-symbols img { height: 13px; }
+
+.green-button
+{
+	background: #4e8e01;
+	border-radius: 4px;
+	color: #fff;
+	display: inline-block;
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.1rem;
+	font-weight: bold;
+	line-height: 1.2;
+	padding: 11px 13px;
+	text-align: center;
+}
+
+a
+{
+	color: #025eee;
+	font-weight: bold;
+	outline: 0;
+	text-decoration: none;
+}
+
+img { max-width: 100%; }
+h1, h2 { text-wrap: balance; }
+
+h3
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.5rem;
+	font-weight: normal;
+	line-height: 1.1;
+	text-align: center;
+	text-wrap: balance;
+}
+
+h4
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.3rem;
+	font-weight: normal;
+	line-height: 1.2;
+	text-align: center;
+	text-wrap: balance;
+}
+
+h5
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.2rem;
+	font-weight: normal;
+	line-height: 1.1;
+	text-align: center;
+	text-wrap: balance;
+}
+
+ol, ul { margin-bottom: -7px; }
+
+li
+{
+	font-family: Helvetica, Sans-Serif;
+	font-size: 1.05rem;
+	padding-bottom: 7px;
+}
+
+.arrow
+{
+	color: #999;
+	font-family: 'Libre Baskerville';
+}
+
+.video
+{
+	height: 0;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+
+.video iframe
+{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+@media only screen and (max-width: 749px)
+{
+	html, body
+	{
+		background: #fff;
+		text-align: initial;
+	}
+
+	.logo { width: 40%; }
+
+	.navigation-button
+	{
+		top: 15px;
+		left: 15px;
+	}
+
+	.wrapper
+	{
+		border-radius: 0px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+}
+
+@media only screen and (min-width: 750px)
+{
+	html, body { width: 730px; }
+	.main-div { padding: 0px 39px 37px 39px; }
+
+	.navigation-button-corner
+	{
+		position: absolute;
+		top: 39px;
+		left: 40px;
+	}
+}
+
